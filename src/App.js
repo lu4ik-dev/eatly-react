@@ -6,7 +6,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/eatly-react" element={<MainPage />}>
+        <Route path="/eatly-react/" element={<MainPage />}>
           <Route index element={<div>No page is selected.</div>} />
           <Route path="one" element={<PageOne />} />
           <Route path="two" element={<PageTwo />} />
